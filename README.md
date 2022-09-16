@@ -8,19 +8,19 @@ This repository holds key information about my *Masterthesis (18 EC)* for the Ma
 
 ## Content 
 #### 1 Survey
-[Example](Survey/Survey_Student_Example.pdf) and survey flow of the conducted survey, which can be accessed [here](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a).
+[Example](Survey/Survey_Student_Example.pdf) and [survey flow](Survey/Survey_Flow.pdf) of the conducted survey, which can be accessed [here](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a).
 
 #### 2 Counterfactual Explanations
-Documentation on computation of the counterfactual explanations used for the study. The code computing counterfactual explanations following the CARE framework is taken from Peyman Rasouli's open source [code](https://github.com/peymanrasouli/CARE). To resemble explanations following [Wachter et al.](https://jolt.law.harvard.edu/assets/articlePDFs/v31/Counterfactual-Explanations-without-Opening-the-Black-Box-Sandra-Wachter-et-al.pdf) we remove the Sparsity objective in the code of CARE and only set the Validity to _True_ and Soundness, Coherency, and Actionability to _False_.
+Documentation on computation of the [counterfactual explanations](Counterfactuals_Adult.ipynb). The code computing counterfactual explanations following the CARE framework is taken from Peyman Rasouli's open source [code](https://github.com/peymanrasouli/CARE). To resemble explanations following [Wachter et al.](https://jolt.law.harvard.edu/assets/articlePDFs/v31/Counterfactual-Explanations-without-Opening-the-Black-Box-Sandra-Wachter-et-al.pdf) we remove the Sparsity objective in the code of CARE and only set the Validity to _True_ and Soundness, Coherency, and Actionability to _False_.
 
 #### 3 Datasets
 For the study we use the Adult Income dataset and the Student Performance dataset. Both can be accessed through the UCI machine learning [repository](http://archive.ics.uci.edu/ml).
 
 #### 4 Preprocessing
-The preprocessing steps follow [Zhu](https://rstudio-pubs-static.s3.amazonaws.com/235617_51e06fa6c43b47d1b6daca2523b2f9e4.html) and [Rasouli et al.](https://arxiv.org/abs/2108.08197). 
+The [preprocessing steps](prepare_datasets.py) follow [Zhu](https://rstudio-pubs-static.s3.amazonaws.com/235617_51e06fa6c43b47d1b6daca2523b2f9e4.html) and [Rasouli et al.](https://arxiv.org/abs/2108.08197). 
 
 #### 5 Model
-The classification model, a multi-layer neural network, is the same model as used by [Rasouli et al.](https://arxiv.org/abs/2108.08197).
+The [classification model](create_model.py), a multi-layer neural network, is the same model as used by [Rasouli et al.](https://arxiv.org/abs/2108.08197).
 
 
 ## Abstract 
