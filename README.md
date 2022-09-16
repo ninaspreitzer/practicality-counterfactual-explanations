@@ -16,7 +16,6 @@ Counterfactual explanations are a way to make machine learning models more trans
 ## Content 
 #### 1 Survey
 [Example](Survey/Survey_Student_Example.pdf) and [survey flow](Survey/Survey_Flow.pdf) of the conducted survey, which can be accessed [here](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a).
-<img width="1392" alt="survey" src="https://user-images.githubusercontent.com/57034840/190699119-68e0f418-d32a-4468-9947-158c72acf07f.png">
 
 
 #### 2 Counterfactual Explanations
