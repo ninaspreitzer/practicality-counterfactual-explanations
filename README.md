@@ -15,8 +15,7 @@ Counterfactual explanations are a way to make machine learning models more trans
 
 ## Content 
 #### 1 Survey
-[Example](Survey/Survey_Student_Example.pdf) and [survey flow](Survey/Survey_Flow.pdf) of the conducted survey, which can be accessed [here](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a).
-
+The full survey is available under [this link](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a). One example is saved [here]((Survey/Survey_Student_Example.pdf), as well as the survey flow, [here](Survey/Survey_Flow.pdf), which shows how the 30 different instances were randomized in the survey tool, named Qualtrics.
 
 #### 2 Counterfactual Explanations
 Documentation on computation of the [counterfactual explanations](Counterfactuals_Adult.ipynb). The code computing counterfactual explanations following the CARE framework is taken from Peyman Rasouli's open source [code](https://github.com/peymanrasouli/CARE). To resemble explanations following [Wachter et al.](https://jolt.law.harvard.edu/assets/articlePDFs/v31/Counterfactual-Explanations-without-Opening-the-Black-Box-Sandra-Wachter-et-al.pdf) we remove the Sparsity objective in the code of CARE and only set the Validity to _True_ and Soundness, Coherency, and Actionability to _False_.
