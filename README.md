@@ -2,7 +2,9 @@
 
 This repository holds key information about my *Masterthesis (18 EC)* for the Master's degree *Information Studies: Data Science Track* at the University of Amsterdam. 
 * **Title:** Evaluating the Practicality of Counterfactual Explanations
-* **Supervisor:** Ilse van der Linden
+* **Supervisor:** Ilse van der Linden, MSc
+* **Institue:** [Civic AI Lab](https://www.civic-ai.nl/)
+* **Submission Date:** 30.06.2022
 
 ## Content 
 #### 1 Survey
