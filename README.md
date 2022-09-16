@@ -1,8 +1,8 @@
 # Evaluating the Practicality of Counterfactual Explanations
 
 This repository holds key information about my *Masterthesis (18 EC)* for the Master's degree *Information Studies: Data Science Track* at the University of Amsterdam. 
-Title: Evaluating the Practicality of Counterfactual Explanations
-Supervisor: Ilse van der Linden
+* **Title:** Evaluating the Practicality of Counterfactual Explanations
+* **Supervisor:** Ilse van der Linden
 
 ## Content 
 #### 1 Survey
