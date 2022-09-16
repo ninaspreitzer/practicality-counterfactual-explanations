@@ -9,6 +9,8 @@ This repository holds key information about my *Masterthesis (18 EC)* for the Ma
 ## Content 
 #### 1 Survey
 [Example](Survey/Survey_Student_Example.pdf) and [survey flow](Survey/Survey_Flow.pdf) of the conducted survey, which can be accessed [here](https://uva.fra1.qualtrics.com/jfe/form/SV_8ccTefLDEIFxF8a).
+<img width="1392" alt="survey" src="https://user-images.githubusercontent.com/57034840/190699119-68e0f418-d32a-4468-9947-158c72acf07f.png">
+
 
 #### 2 Counterfactual Explanations
 Documentation on computation of the [counterfactual explanations](Counterfactuals_Adult.ipynb). The code computing counterfactual explanations following the CARE framework is taken from Peyman Rasouli's open source [code](https://github.com/peymanrasouli/CARE). To resemble explanations following [Wachter et al.](https://jolt.law.harvard.edu/assets/articlePDFs/v31/Counterfactual-Explanations-without-Opening-the-Black-Box-Sandra-Wachter-et-al.pdf) we remove the Sparsity objective in the code of CARE and only set the Validity to _True_ and Soundness, Coherency, and Actionability to _False_.
