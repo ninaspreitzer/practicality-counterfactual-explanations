@@ -27,4 +27,4 @@ For the study we use the Adult Income dataset and the Student Performance datase
 The [preprocessing steps](prepare_datasets.py) follow [Zhu](https://rstudio-pubs-static.s3.amazonaws.com/235617_51e06fa6c43b47d1b6daca2523b2f9e4.html) and [Rasouli et al.](https://arxiv.org/abs/2108.08197). 
 
 #### 5 Model
-The [classification model](create_model.py), a multi-layer neural network, is the same model as used by [Rasouli et al.].
+The [classification model](create_model.py), a multi-layer neural network, is the same model as used by [Rasouli et al.](https://arxiv.org/abs/2108.08197).
